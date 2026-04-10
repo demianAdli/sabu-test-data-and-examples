@@ -1,10 +1,10 @@
-# JUGS Test Data and Examples
+# SABU Test Data and Examples
 
-This repository provides test datasets, example workflows, and reproducibility materials for the **JUGS (Joint Utility for Generic carbon-emission Simulation)** framework.
+This repository provides test datasets, example workflows, and reproducibility materials for the **SABU (Joint Utility for Generic carbon-emission Simulation)** framework.
 
-## About JUGS
+## About SABU
 
-JUGS is a microservice-based software framework designed to support disaggregated carbon-emissions evaluation across urban systems. It adopts a modular architecture in which domain-specific workflows are implemented as independent services with well-defined interfaces.
+SABU is a microservice-based software framework designed to support disaggregated carbon-emissions evaluation across urban systems. It adopts a modular architecture in which domain-specific workflows are implemented as independent services with well-defined interfaces.
 
 The framework emphasizes:
 
@@ -13,30 +13,30 @@ The framework emphasizes:
 - scalability through containerized execution
 - extensibility for future domain integration
 
-**Main JUGS repository:**  
+**Main SABU repository:**  
 https://github.com/demianAdli/jugs
 
 ---
 
 ## Purpose of This Repository
 
-This repository serves as a **companion resource** to the main JUGS framework. Its goal is to support:
+This repository serves as a **companion resource** to the main SABU framework. Its goal is to support:
 
-- testing of JUGS services with **GeoJSON datasets of varying sizes**
+- testing of SABU services with **GeoJSON datasets of varying sizes**
 - demonstration of **typical execution workflows**
 - sharing of **example output tables** (e.g., emissions results)
 - providing **scripts and command-line examples** (Python, PowerShell, Bash, curl)
 - documenting **performance benchmarks and logs**
 - enabling **reproducibility of experiments**
 
-This separation keeps the main JUGS repository focused on architecture and implementation, while this repository focuses on **usage, validation, and experimentation**.
+This separation keeps the main SABU repository focused on architecture and implementation, while this repository focuses on **usage, validation, and experimentation**.
 
 ---
 
 ## Repository Structure
 
 ```text
-jugs-test-data-and-examples/
+sabu-test-data-and-examples/
 |-- services/
 |   `-- jug_lca_buildings/
 |       |-- examples/    # Execution examples (direct Python, API, Docker)
@@ -68,7 +68,7 @@ jugs-test-data-and-examples/
 This repository currently includes materials for:
 
 - `jug_lca_buildings`  
-  A life-cycle carbon estimation service for buildings within the JUGS framework.
+  A life-cycle carbon estimation service for buildings within the SABU framework.
 
 Planned future additions include:
 
@@ -80,7 +80,7 @@ Planned future additions include:
 
 ## Execution Modes
 
-Examples are provided for multiple ways of interacting with JUGS services:
+Examples are provided for multiple ways of interacting with SABU services:
 
 - **Direct Python execution**
 - **API-based interaction** (e.g., using `curl` or Postman)
@@ -119,7 +119,7 @@ Some datasets (especially large GeoJSON files) may be:
 
 ## Citation
 
-If you use JUGS or materials from this repository in your research, please refer to the citation information provided in `CITATION.cff`.
+If you use SABU or materials from this repository in your research, please refer to the citation information provided in `CITATION.cff`.
 
 ---
 
