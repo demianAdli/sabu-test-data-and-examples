@@ -1,6 +1,6 @@
 # Sabu Test Data and Examples
 
-This repository provides test datasets, example workflows, and reproducibility materials for the **Sabu (Joint Utility for Generic carbon-emission Simulation)** framework.
+This repository provides test datasets, example workflows, and reproducibility materials for the **Sabu** framework.
 
 ## About Sabu
 
