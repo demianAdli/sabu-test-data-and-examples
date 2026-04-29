@@ -85,7 +85,9 @@ Examples are provided for multiple ways of interacting with Sabu services:
 - **API-based interaction** (e.g., using `curl` or Postman)
 - **Docker-based execution**
 
-Refer to the `examples/` directory within each service for details.
+Refer to the `examples/` directory within each service for details. The
+instructions for each execution mode are available in the corresponding
+subdirectory README, such as `direct_python/`, `api/`, and `docker/`.
 
 ---
 
