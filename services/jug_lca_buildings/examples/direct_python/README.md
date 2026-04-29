@@ -7,7 +7,7 @@ server.
 Run the commands from the repository main root:
 
 ```powershell
-cd C:\Users\a_adli\docker_projects\sabu-test-data-and-examples
+cd path\to\sabu-test-data-and-examples
 ```
 
 The examples below use PowerShell line continuations with the backtick
