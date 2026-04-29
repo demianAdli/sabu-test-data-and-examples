@@ -1,0 +1,4 @@
+run_label,run_date,endpoint,http_status,input_size,buildings_reported_by_service,cache_hit,request_hash,total_latency_ms,total_latency_s,approx_wall_clock_duration,geometry_parsing_s,construction_enrichment_s,emissions_calculation_s,emission_export_payload_s,ms_per_building,buildings_per_second,notes
+100000_buildings_uncached,46081,POST /emissions,201,100000,100001,FALSE,002df0f3a9fa,6431390,6431.39,1 h 47 min 11 s,1569.099,3696.374,1138.003,1138.065,11.38,87.87,Main uncached benchmark request; structured timestamps in sabu.log are UTC.
+100000_buildings_cached_1,46081,POST /emissions,201,100000,100001,TRUE,002df0f3a9fa,17924,17.924,,,,,,,Cached repeat request recorded at local server time 16:10:17.,
+100000_buildings_cached_2,46081,POST /emissions,201,100000,100001,TRUE,002df0f3a9fa,34539,34.539,,,,,,,Cached repeat request recorded at local server time 16:11:39.,
