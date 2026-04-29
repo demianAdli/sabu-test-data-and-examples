@@ -28,7 +28,7 @@ env/
 # Local environment / logs
 .env
 .env.*
-*.log
+test_*.log
 
 # Local drafts and personal scratch files
 draft/
