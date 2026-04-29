@@ -28,10 +28,11 @@ env/
 # Local environment / logs
 .env
 .env.*
-test_*.log
+sabu.log
+logs/
 
 # Local drafts and personal scratch files
 draft/
 my_*.py
 my_*.txt
-.runtime
+.runtime/
