@@ -25,7 +25,7 @@ This repository serves as a **companion resource** to the main Sabu framework. I
 - testing of Sabu services with **GeoJSON datasets of varying sizes**
 - demonstration of **typical execution workflows**
 - sharing of **example output tables** (e.g., emissions results)
-- providing **scripts and command-line examples** (Python, PowerShell, Bash, curl)
+- providing **example scripts and command-line workflows** (Python, PowerShell, Bash, curl)
 - documenting **performance benchmarks and logs**
 - enabling **reproducibility of experiments**
 
@@ -43,7 +43,6 @@ sabu-test-data-and-examples/
 |       |-- datasets/    # Input GeoJSON datasets (1 to large-scale cases)
 |       |-- results/     # Example outputs and processed tables
 |       |-- benchmarks/  # Performance results and configurations
-|       |-- scripts/     # Helper scripts and command-line utilities
 |       `-- docs/        # Service-specific documentation
 |
 |-- shared/
@@ -57,7 +56,7 @@ sabu-test-data-and-examples/
 ### Design Principles
 
 - **Service-oriented organization**: Each service maintains its own datasets, results, and examples
-- **Separation of concerns**: Inputs, outputs, scripts, and documentation are clearly organized
+- **Separation of concerns**: Inputs, outputs, examples, and documentation are clearly organized
 - **Extensibility**: Additional services (e.g., `jug_gis_validation`) can be added without restructuring
 - **Reproducibility-focused**: Materials are curated to support validation and experimentation
 
@@ -86,7 +85,7 @@ Examples are provided for multiple ways of interacting with Sabu services:
 - **API-based interaction** (e.g., using `curl` or Postman)
 - **Docker-based execution**
 
-Refer to the `examples/` and `scripts/` directories within each service for details.
+Refer to the `examples/` directory within each service for details.
 
 ---
 
@@ -97,7 +96,7 @@ The repository includes:
 - datasets ranging from small samples to large-scale inputs
 - representative output tables used for validation
 - performance benchmarks and execution logs
-- scripts to reproduce selected experiments
+- examples to reproduce selected experiments
 
 These materials are intended to support:
 

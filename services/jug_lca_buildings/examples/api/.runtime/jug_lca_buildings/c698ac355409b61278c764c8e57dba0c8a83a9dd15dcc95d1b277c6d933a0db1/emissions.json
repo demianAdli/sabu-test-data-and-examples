@@ -1,0 +1,18 @@
+[
+  {
+    "component_embodied_emissions": 359070.1919074456,
+    "component_end_of_life_emissions": 64205.2035491497,
+    "envelope_embodied_emissions": 341257.06773713947,
+    "envelope_end_of_life_emissions": 6910.99157700809,
+    "opening_embodied_emissions": 17813.124170306117,
+    "opening_end_of_life_emissions": 57294.21197214161
+  },
+  {
+    "component_embodied_emissions": 1411619.1824772793,
+    "component_end_of_life_emissions": 97566.72848854997,
+    "envelope_embodied_emissions": 1392428.8324432406,
+    "envelope_end_of_life_emissions": 28972.49870029467,
+    "opening_embodied_emissions": 19190.35003403877,
+    "opening_end_of_life_emissions": 68594.2297882553
+  }
+]
