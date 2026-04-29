@@ -37,4 +37,3 @@ example or script states otherwise.
 
 - Input datasets: `../datasets/`
 - Execution examples: `../examples/`
-- Benchmarks: `../benchmarks/`
