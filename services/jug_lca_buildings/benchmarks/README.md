@@ -5,10 +5,11 @@ service on a large building dataset.
 
 ## Contents
 
-- `sabu.log`: structured JSON Lines log for a benchmark run of the
+- `sabu_buildings.log`: structured JSON Lines log for a benchmark run of the
   `/emissions` endpoint on the 100000-building input. The service log reports
   `100001` buildings in the resolved city.
-- `summary.csv`: compact benchmark summary table extracted from `sabu.log`,
+- `summary.csv`: compact benchmark summary table extracted from
+  `sabu_buildings.log`,
   with one row per recorded `/emissions` request.
 
 ## Recorded Run
@@ -56,7 +57,8 @@ calculation workflow.
 
 ## Log Fields
 
-Each line in `sabu.log` is one JSON object. The most useful fields are:
+Each line in `sabu_buildings.log` is one JSON object. The most useful fields
+are:
 
 - `ts`: structured timestamp, recorded in UTC.
 - `level`: log severity, such as `INFO`, `DEBUG`, or `ERROR`.
@@ -72,10 +74,10 @@ Each line in `sabu.log` is one JSON object. The most useful fields are:
 
 ## Representation Recommendation
 
-Keeping the raw `sabu.log` file is useful because it preserves the full request
-trace, progress events, cache behavior, and any warnings or errors. For papers,
-reports, or quick comparison between benchmark runs, the best companion format
-is the `summary.csv` file in this folder.
+Keeping the raw `sabu_buildings.log` file is useful because it preserves the
+full request trace, progress events, cache behavior, and any warnings or errors.
+For papers, reports, or quick comparison between benchmark runs, the best
+companion format is the `summary.csv` file in this folder.
 
 The current summary fields are:
 
