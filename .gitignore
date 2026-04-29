@@ -36,3 +36,4 @@ draft/
 my_*.py
 my_*.txt
 .runtime/
+perf_runs/
