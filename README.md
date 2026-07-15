@@ -43,6 +43,7 @@ sabu-test-data-and-examples/
 |       |-- datasets/    # Input GeoJSON datasets (1 to large-scale cases)
 |       |-- results/     # Example outputs and processed tables
 |       |-- benchmarks/  # Performance results and configurations
+|       |-- regression-and-numerical-equivalence/  # Cross-mode consistency evidence
 |       `-- docs/        # Service-specific documentation
 |
 |-- shared/
