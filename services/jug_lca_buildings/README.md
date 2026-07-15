@@ -14,8 +14,9 @@ checking expected inputs and outputs, and reproducing selected runs.
   API, or Docker.
 - `results/`: example outputs and links to reproducibility result datasets.
 - `benchmarks/`: performance logs, timing summaries, and benchmark notes.
+- `regression-and-numerical-equivalence/`: evidence for consistency across
+  direct Python, local API, and Docker API execution modes.
 - `docs/`: additional service-specific documentation, when available.
 
 For a first run, start with `examples/README.md`, then choose the execution mode
 that matches your environment.
-
