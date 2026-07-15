@@ -17,11 +17,14 @@ REST API adds the API, serialization, validation, and orchestration boundaries.
 The Dockerized REST API additionally adds the containerized runtime
 environment.
 
-Inspection of the three output files showed identical numerical emissions
-results. The logs are included as execution records. Timestamps may differ
-because the host and container can use different time zones, including UTC.
-These timestamp differences do not affect the emissions results and were not
-used in the numerical-equivalence assessment.
+The direct Python and local REST API outputs were identical. The Dockerized
+REST API output showed negligible numerical differences, with an average
+absolute difference of 3.82395 × 10⁻⁵ kg CO₂eq and a maximum absolute
+difference of 0.001003012 kg CO₂eq per reported value. The logs are included as
+execution records. Timestamps may differ because the host and container can use
+different time zones, including UTC. These timestamp differences do not affect
+the emissions results and were not used in the numerical-equivalence
+assessment.
 
 This check verifies consistency across execution modes. It does not
 independently validate the underlying carbon-accounting methodology.
