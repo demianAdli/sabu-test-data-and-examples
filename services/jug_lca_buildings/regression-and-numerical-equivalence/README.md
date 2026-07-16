@@ -6,10 +6,10 @@ datasets were used in all three execution modes.
 
 ## Execution Modes and Files
 
-| Execution mode | Output | Execution log |
-| --- | --- | --- |
-| Direct Python | `direct-python/emissions_report.csv` | `direct-python/sabu.log` |
-| Local REST API | `local-api/emissions_report.csv` | `local-api/sabu-api.log` |
+| Execution mode      | Output                                     | Execution log                |
+| ------------------- | ------------------------------------------ | ---------------------------- |
+| Direct Python       | `direct-python/emissions_report.csv`       | `direct-python/sabu.log`     |
+| Local REST API      | `local-api/emissions_report.csv`           | `local-api/sabu-api.log`     |
 | Dockerized REST API | `docker-api/sabu-docker-100-buildings.csv` | `docker-api/sabu-docker.log` |
 
 The direct Python invocation executes `LCACarbonWorkflow` directly. The local
@@ -20,7 +20,7 @@ environment.
 The direct Python and local REST API outputs were identical. The Dockerized
 REST API output showed negligible numerical differences, with an average
 absolute difference of 3.82395 × 10⁻⁵ kg CO₂eq and a maximum absolute
-difference of 0.001003012 kg CO₂eq per reported value. The logs are included as
+difference of 0.0010 kg CO₂eq per reported value. The logs are included as
 execution records. Timestamps may differ because the host and container can use
 different time zones, including UTC. These timestamp differences do not affect
 the emissions results and were not used in the numerical-equivalence
