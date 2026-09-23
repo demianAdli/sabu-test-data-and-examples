@@ -1,0 +1,337 @@
+{
+  "type": "FeatureCollection",
+  "name": "mtl_T2B_gisoo_standardized",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4617"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.59366256700662,
+                45.63810508239825
+              ],
+              [
+                -73.59359411549,
+                45.63804095721383
+              ],
+              [
+                -73.5936576,
+                45.638009
+              ],
+              [
+                -73.5936602,
+                45.6380117
+              ],
+              [
+                -73.5937253,
+                45.6380716
+              ],
+              [
+                -73.59366256700662,
+                45.63810508239825
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100000,
+      "properties": {
+        "fid": 1,
+        "citygisoo_id": "b2ea6ea7-fe84-47f6-ac09-73a1a02e39f4",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T2B",
+        "citygisoo_area": 53.8663897914812,
+        "height": 17.937559127807617,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "8048  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov004",
+        "usage_provincial_id": "mock_prov004",
+        "nrcan_building_area": 235.31,
+        "roll_area": 252.4,
+        "usage_area": 252.4,
+        "main_floor_area": 109.6,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 6.5763588426518735
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.5933325,
+                45.6382899
+              ],
+              [
+                -73.5932616,
+                45.6382175
+              ],
+              [
+                -73.5933437,
+                45.638178
+              ],
+              [
+                -73.5934145,
+                45.6382504
+              ],
+              [
+                -73.5933325,
+                45.6382899
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100001,
+      "properties": {
+        "fid": 2,
+        "citygisoo_id": "d8bf5e5a-7689-484c-aa47-b35e2ba71600",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T2B",
+        "citygisoo_area": 75.72810538113117,
+        "height": 9.555105209350586,
+        "function": "1000",
+        "year_of_construction": "1988",
+        "construction_type": "5",
+        "address": "8068  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov001",
+        "usage_provincial_id": "mock_prov001",
+        "nrcan_building_area": 75.69,
+        "roll_area": 400.9,
+        "usage_area": 400.9,
+        "main_floor_area": 141.6,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 7.371200313815823
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.593458,
+                45.6381902
+              ],
+              [
+                -73.5934547,
+                45.6381869
+              ],
+              [
+                -73.5933735,
+                45.638112
+              ],
+              [
+                -73.5933783,
+                45.6381095
+              ],
+              [
+                -73.5934262,
+                45.6380848
+              ],
+              [
+                -73.5934359,
+                45.6380939
+              ],
+              [
+                -73.59344699704548,
+                45.63808826514947
+              ],
+              [
+                -73.5935207028371,
+                45.638157473273026
+              ],
+              [
+                -73.593458,
+                45.6381902
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100002,
+      "properties": {
+        "fid": 3,
+        "citygisoo_id": "fdae3b47-4c30-4e9c-8e10-32df2a24bb4d",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T2B",
+        "citygisoo_area": 65.32880032458343,
+        "height": 17.937559127807617,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "8060  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov007",
+        "usage_provincial_id": "mock_prov007",
+        "nrcan_building_area": 235.31,
+        "roll_area": 232.7,
+        "usage_area": 232.7,
+        "main_floor_area": 101.4,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 6.5763588426518735
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.5935904,
+                45.6381436
+              ],
+              [
+                -73.593585,
+                45.6381464
+              ],
+              [
+                -73.5935697,
+                45.6381319
+              ],
+              [
+                -73.5935207028371,
+                45.638157473273026
+              ],
+              [
+                -73.59344699704548,
+                45.63808826514947
+              ],
+              [
+                -73.5935066,
+                45.638058
+              ],
+              [
+                -73.5935247,
+                45.6380759
+              ],
+              [
+                -73.59352593427941,
+                45.638075278681015
+              ],
+              [
+                -73.59359571298104,
+                45.6381407643096
+              ],
+              [
+                -73.5935904,
+                45.6381436
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100003,
+      "properties": {
+        "fid": 4,
+        "citygisoo_id": "75b6e3d2-6ce1-4901-9f64-70e7e1cd1c1a",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T2B",
+        "citygisoo_area": 57.289766467991285,
+        "height": 17.937559127807617,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "8056  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov006",
+        "usage_provincial_id": "mock_prov006",
+        "nrcan_building_area": 235.31,
+        "roll_area": 149.9,
+        "usage_area": 149.9,
+        "main_floor_area": 101.4,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 6.5763588426518735
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.59359571298104,
+                45.6381407643096
+              ],
+              [
+                -73.59352593427941,
+                45.638075278681015
+              ],
+              [
+                -73.59359411549,
+                45.63804095721383
+              ],
+              [
+                -73.59366256700662,
+                45.63810508239825
+              ],
+              [
+                -73.59359571298104,
+                45.6381407643096
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100004,
+      "properties": {
+        "fid": 5,
+        "citygisoo_id": "5a30ffba-8d59-4180-b5c1-e5dfdd0c20ec",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T2B",
+        "citygisoo_area": 58.87944982945919,
+        "height": 17.937559127807617,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "8052  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov005",
+        "usage_provincial_id": "mock_prov005",
+        "nrcan_building_area": 235.31,
+        "roll_area": 169.6,
+        "usage_area": 169.6,
+        "main_floor_area": 109.6,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 6.5763588426518735
+      }
+    }
+  ]
+}

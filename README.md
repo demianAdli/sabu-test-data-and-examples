@@ -22,9 +22,9 @@ https://github.com/demianAdli/sabu
 
 This repository serves as a **companion resource** to the main Sabu framework. Its goal is to support:
 
-- testing of Sabu services with **GeoJSON datasets of varying sizes**
+- testing of Sabu services with **GeoJSON and GeoPackage datasets**
 - demonstration of **typical execution workflows**
-- sharing of **example output tables** (e.g., emissions results)
+- sharing of **example geospatial outputs and tables** (e.g., emissions results)
 - providing **example scripts and command-line workflows** (Python, PowerShell, Bash, curl)
 - documenting **performance benchmarks and logs**
 - enabling **reproducibility of experiments**
@@ -38,13 +38,22 @@ This separation keeps the main Sabu repository focused on architecture and imple
 ```text
 sabu-test-data-and-examples/
 |-- services/
-|   `-- jug_lca_buildings/
-|       |-- examples/    # Execution examples (direct Python, API, Docker)
-|       |-- datasets/    # Input GeoJSON datasets (1 to large-scale cases)
-|       |-- results/     # Example outputs and processed tables
-|       |-- benchmarks/  # Performance results and configurations
-|       |-- regression-and-numerical-equivalence/  # Cross-mode consistency evidence
-|       `-- docs/        # Service-specific documentation
+|   |-- jug_lca_buildings/
+|   |   |-- examples/    # Execution examples (direct Python, API, Docker)
+|   |   |-- datasets/    # Input GeoJSON datasets (1 to large-scale cases)
+|   |   |-- results/     # Example outputs and processed tables
+|   |   |-- benchmarks/  # Performance results and configurations
+|   |   |-- regression-and-numerical-equivalence/  # Cross-mode consistency evidence
+|   |   `-- docs/        # Service-specific documentation
+|   `-- jug_gis_cities/
+|       |-- README.md    # Service overview and starting point
+|       |-- examples/
+|       |   `-- direct_python/  # Standalone PyQGIS execution instructions
+|       |-- datasets/
+|       |   `-- mock_data/      # Placeholder for six prepared input GeoPackages
+|       |-- results/     # Historical T1A/T2B outputs and preliminary exports
+|       |-- benchmarks/  # Historical logs, timings, and measurement notes
+|       `-- docs/        # Configuration, interpretation, and dataset limitation
 |
 |-- shared/
 |   `-- docs/            # Cross-service documentation and notes
@@ -69,26 +78,33 @@ This repository currently includes materials for:
 
 - `jug_lca_buildings`  
   A life-cycle carbon estimation service for buildings within the Sabu framework.
+- [`jug_gis_cities`](services/jug_gis_cities/README.md)
+  Geospatial cleaning and integration by FSA using CityGISOO/PyQGIS, with
+  optional standardization for downstream building carbon assessment. Direct
+  Python instructions and historical example outputs are available; the six
+  prepared input GeoPackages are to be added manually to `datasets/mock_data/`
+  within that service section.
 
 Planned future additions include:
 
 - `jug_gis_validation`
-- `jug_gis_cities`
 - `jug_sim`
 
 ---
 
 ## Execution Modes
 
-Examples are provided for multiple ways of interacting with Sabu services:
+The `jug_lca_buildings` examples cover:
 
 - **Direct Python execution**
 - **API-based interaction** (e.g., using `curl` or Postman)
 - **Docker-based execution**
 
-Refer to the `examples/` directory within each service for details. The
-instructions for each execution mode are available in the corresponding
-subdirectory README, such as `direct_python/`, `api/`, and `docker/`.
+The `jug_gis_cities` examples cover direct Python execution in a standalone
+PyQGIS environment. Start with its
+[execution guide](services/jug_gis_cities/examples/direct_python/README.md).
+
+Refer to each service's `examples/` directory for its available execution modes.
 
 ---
 

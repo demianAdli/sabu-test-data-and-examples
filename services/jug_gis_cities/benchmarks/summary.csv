@@ -1,0 +1,5 @@
+log_timestamp,component,fsas,mode,max_workers,scope,elapsed_seconds,source_log,notes
+2026-09-21T14:21:39,mtl_fsa_gisoo,T1A T2B,standardize,2,batch,7.722,jug_gis_cities.log,Historical observation; two succeeded; timezone unspecified
+2026-09-18T19:58:38,mtl_fsa_gisoo,T1A,standardize,1,workflow,5.223,jug_gis_cities.log,Historical observation; preliminary workflow only
+2026-09-18T19:58:38,mtl_fsa_gisoo,T1A,standardize,1,contract_adapter,0.230,jug_gis_cities.log,Historical observation; standardization only
+2026-09-18T19:58:39,mtl_fsa_gisoo,T1A,standardize,1,isolated_execution_including_cleanup,7.754,jug_gis_cities.log,Historical observation; includes workflow and adapter; not an additional duration to sum

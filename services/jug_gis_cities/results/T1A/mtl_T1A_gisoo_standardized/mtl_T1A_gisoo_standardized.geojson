@@ -1,0 +1,849 @@
+{
+  "type": "FeatureCollection",
+  "name": "mtl_T1A_gisoo_standardized",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4617"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.59420486687002,
+                45.637817060997484
+              ],
+              [
+                -73.59413663574527,
+                45.637753088933835
+              ],
+              [
+                -73.5941956,
+                45.6377263
+              ],
+              [
+                -73.5942615,
+                45.6377867
+              ],
+              [
+                -73.59420486687002,
+                45.637817060997484
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100000,
+      "properties": {
+        "fid": 1,
+        "citygisoo_id": "431325b1-1774-43da-bf68-a2b574921d4f",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 47.75330971181393,
+        "height": 6.605522155761719,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "8020  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov014",
+        "usage_provincial_id": "mock_prov014",
+        "nrcan_building_area": 382.4,
+        "roll_area": 232.7,
+        "usage_area": 232.7,
+        "main_floor_area": 100.9,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 5.974679792770232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.594215,
+                45.6375867
+              ],
+              [
+                -73.5942104,
+                45.6375828
+              ],
+              [
+                -73.594236,
+                45.6375703
+              ],
+              [
+                -73.594231715384,
+                45.637566010835585
+              ],
+              [
+                -73.5943173648797,
+                45.63752095460761
+              ],
+              [
+                -73.5943232,
+                45.6375265
+              ],
+              [
+                -73.5943271,
+                45.6375302
+              ],
+              [
+                -73.5943147,
+                45.6375363
+              ],
+              [
+                -73.59434820666308,
+                45.637569527440895
+              ],
+              [
+                -73.59425242043507,
+                45.63761988569595
+              ],
+              [
+                -73.594215,
+                45.6375867
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100001,
+      "properties": {
+        "fid": 2,
+        "citygisoo_id": "4ab6da6f-9376-43ae-bb42-05d54663f3f5",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 54.81091314763762,
+        "height": 9.610673904418945,
+        "function": "1000",
+        "year_of_construction": "1972",
+        "construction_type": "5",
+        "address": "12313  CLEMENT-ADER",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov013",
+        "usage_provincial_id": "mock_prov013",
+        "nrcan_building_area": 330.65,
+        "roll_area": 149.9,
+        "usage_area": 149.9,
+        "main_floor_area": 96.8,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 6.11526483140951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.5940017,
+                45.6379067
+              ],
+              [
+                -73.59399875818339,
+                45.63790819052042
+              ],
+              [
+                -73.5939335121946,
+                45.63784742624038
+              ],
+              [
+                -73.59399759266645,
+                45.6378087919279
+              ],
+              [
+                -73.59406701008983,
+                45.637873597625706
+              ],
+              [
+                -73.5940017,
+                45.6379067
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100002,
+      "properties": {
+        "fid": 3,
+        "citygisoo_id": "a0d21bc7-5297-4b37-bc88-a58074d5f337",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 57.3620802515652,
+        "height": 6.605522155761719,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "8032  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov017",
+        "usage_provincial_id": "mock_prov017",
+        "nrcan_building_area": 382.4,
+        "roll_area": 169.6,
+        "usage_area": 169.6,
+        "main_floor_area": 107.0,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 5.974679792770232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.5939305867739,
+                45.637942730701226
+              ],
+              [
+                -73.5938695636562,
+                45.637885981009774
+              ],
+              [
+                -73.5939335121946,
+                45.63784742624038
+              ],
+              [
+                -73.59399875818339,
+                45.63790819052042
+              ],
+              [
+                -73.5939305867739,
+                45.637942730701226
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100003,
+      "properties": {
+        "fid": 4,
+        "citygisoo_id": "81531b79-5c4f-425f-8dba-d42163481491",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 53.6304059587419,
+        "height": 6.605522155761719,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "8036  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov018",
+        "usage_provincial_id": "mock_prov018",
+        "nrcan_building_area": 382.4,
+        "roll_area": 169.6,
+        "usage_area": 169.6,
+        "main_floor_area": 107.0,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 5.974679792770232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.59414573347378,
+                45.63784876238667
+              ],
+              [
+                -73.59407394841101,
+                45.63778156935571
+              ],
+              [
+                -73.59413663574527,
+                45.637753088933835
+              ],
+              [
+                -73.59420486687002,
+                45.637817060997484
+              ],
+              [
+                -73.59414573347378,
+                45.63784876238667
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100004,
+      "properties": {
+        "fid": 5,
+        "citygisoo_id": "bee7d751-c071-44f5-be63-1784fe0a604b",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 52.87114146724343,
+        "height": 6.605522155761719,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "8024  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov015",
+        "usage_provincial_id": "mock_prov015",
+        "nrcan_building_area": 382.4,
+        "roll_area": 149.9,
+        "usage_area": 149.9,
+        "main_floor_area": 98.8,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 5.974679792770232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.5938242,
+                45.6380201
+              ],
+              [
+                -73.5938202,
+                45.6380163
+              ],
+              [
+                -73.5937542,
+                45.6379555
+              ],
+              [
+                -73.59381315815742,
+                45.637919972533616
+              ],
+              [
+                -73.59388470030493,
+                45.63798650627106
+              ],
+              [
+                -73.5938242,
+                45.6380201
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100005,
+      "properties": {
+        "fid": 6,
+        "citygisoo_id": "ac645ab7-d7c6-4beb-8b21-037bd1ef827b",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 55.09877736936323,
+        "height": 6.605522155761719,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "8044  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov003",
+        "usage_provincial_id": "mock_prov003",
+        "nrcan_building_area": 382.4,
+        "roll_area": 232.7,
+        "usage_area": 232.7,
+        "main_floor_area": 100.9,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 5.974679792770232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.59425242043507,
+                45.63761988569595
+              ],
+              [
+                -73.59434820666308,
+                45.637569527440895
+              ],
+              [
+                -73.5943747,
+                45.6375958
+              ],
+              [
+                -73.59439097112647,
+                45.63761192649423
+              ],
+              [
+                -73.59429842011903,
+                45.637660679757346
+              ],
+              [
+                -73.59425242043507,
+                45.63761988569595
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100006,
+      "properties": {
+        "fid": 7,
+        "citygisoo_id": "f1326f14-ee6d-4da1-9b7b-126f925e164f",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 53.00210392475128,
+        "height": 9.610673904418945,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "12319  CLEMENT-ADER",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov012",
+        "usage_provincial_id": "mock_prov012",
+        "nrcan_building_area": 330.65,
+        "roll_area": 149.9,
+        "usage_area": 149.9,
+        "main_floor_area": 96.8,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 6.11526483140951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.5941418,
+                45.637476
+              ],
+              [
+                -73.5941386,
+                45.6374729
+              ],
+              [
+                -73.5942166,
+                45.6374339
+              ],
+              [
+                -73.5942225,
+                45.6374308
+              ],
+              [
+                -73.59426752462336,
+                45.637473589041264
+              ],
+              [
+                -73.59418348967402,
+                45.63751773393058
+              ],
+              [
+                -73.5941418,
+                45.637476
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100007,
+      "properties": {
+        "fid": 8,
+        "citygisoo_id": "3dd57209-8f68-41a6-afed-39740edf8791",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 48.609116796636954,
+        "height": 9.610673904418945,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "12301  CLEMENT-ADER",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov009",
+        "usage_provincial_id": "mock_prov009",
+        "nrcan_building_area": 330.65,
+        "roll_area": 252.4,
+        "usage_area": 252.4,
+        "main_floor_area": 109.1,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 6.11526483140951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.5945142,
+                45.6377018
+              ],
+              [
+                -73.5944302,
+                45.6377465
+              ],
+              [
+                -73.59436832725422,
+                45.6376972727789
+              ],
+              [
+                -73.59445808112775,
+                45.63765000228092
+              ],
+              [
+                -73.5945142,
+                45.6377018
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100008,
+      "properties": {
+        "fid": 9,
+        "citygisoo_id": "4a749bbd-a828-4c43-8c69-e4de76fa17a0",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 61.5372077152133,
+        "height": 9.610673904418945,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "12331  CLEMENT-ADER",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov010",
+        "usage_provincial_id": "mock_prov010",
+        "nrcan_building_area": 330.65,
+        "roll_area": 247.9,
+        "usage_area": 247.9,
+        "main_floor_area": 109.1,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 6.11526483140951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.59418348967402,
+                45.63751773393058
+              ],
+              [
+                -73.59426752462336,
+                45.637473589041264
+              ],
+              [
+                -73.5943173648797,
+                45.63752095460761
+              ],
+              [
+                -73.594231715384,
+                45.637566010835585
+              ],
+              [
+                -73.59418348967402,
+                45.63751773393058
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100009,
+      "properties": {
+        "fid": 10,
+        "citygisoo_id": "f02f8d39-9e9a-4a53-a4d5-424d447fd23c",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 54.10965211689472,
+        "height": 9.610673904418945,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "12307  CLEMENT-ADER",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov008",
+        "usage_provincial_id": "mock_prov008",
+        "nrcan_building_area": 330.65,
+        "roll_area": 169.6,
+        "usage_area": 169.6,
+        "main_floor_area": 109.1,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 6.11526483140951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.594141,
+                45.6378513
+              ],
+              [
+                -73.5941362,
+                45.6378539
+              ],
+              [
+                -73.5941258,
+                45.6378438
+              ],
+              [
+                -73.59406701008983,
+                45.637873597625706
+              ],
+              [
+                -73.59399759266645,
+                45.6378087919279
+              ],
+              [
+                -73.5940553,
+                45.637774
+              ],
+              [
+                -73.5940609,
+                45.6377706
+              ],
+              [
+                -73.5940719,
+                45.6377825
+              ],
+              [
+                -73.59407394841101,
+                45.63778156935571
+              ],
+              [
+                -73.59414573347378,
+                45.63784876238667
+              ],
+              [
+                -73.594141,
+                45.6378513
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100010,
+      "properties": {
+        "fid": 11,
+        "citygisoo_id": "f719c79b-5f5a-4b1e-ad02-f538aaa3cff7",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 62.094046317623,
+        "height": 6.605522155761719,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "8028  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov016",
+        "usage_provincial_id": "mock_prov016",
+        "nrcan_building_area": 382.4,
+        "roll_area": 169.6,
+        "usage_area": 169.6,
+        "main_floor_area": 105.5,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 5.974679792770232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.5939267,
+                45.6379447
+              ],
+              [
+                -73.5939391,
+                45.6379563
+              ],
+              [
+                -73.59388470030493,
+                45.63798650627106
+              ],
+              [
+                -73.59381315815742,
+                45.637919972533616
+              ],
+              [
+                -73.5938624,
+                45.6378903
+              ],
+              [
+                -73.5938695636562,
+                45.637885981009774
+              ],
+              [
+                -73.5939305867739,
+                45.637942730701226
+              ],
+              [
+                -73.5939267,
+                45.6379447
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100011,
+      "properties": {
+        "fid": 12,
+        "citygisoo_id": "14dd2579-7b1b-4f23-8c78-98647ee00766",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 53.66492562764324,
+        "height": 6.605522155761719,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "8040  JEAN-DARCET",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov002",
+        "usage_provincial_id": "mock_prov002",
+        "nrcan_building_area": 382.4,
+        "roll_area": 149.9,
+        "usage_area": 149.9,
+        "main_floor_area": 101.4,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 5.974679792770232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -73.59429842011903,
+                45.637660679757346
+              ],
+              [
+                -73.59439097112647,
+                45.63761192649423
+              ],
+              [
+                -73.5943972,
+                45.6376181
+              ],
+              [
+                -73.5944142,
+                45.6376095
+              ],
+              [
+                -73.59445808112775,
+                45.63765000228092
+              ],
+              [
+                -73.59436832725422,
+                45.6376972727789
+              ],
+              [
+                -73.5943206,
+                45.6376593
+              ],
+              [
+                -73.5943069,
+                45.6376682
+              ],
+              [
+                -73.59429842011903,
+                45.637660679757346
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": 100012,
+      "properties": {
+        "fid": 13,
+        "citygisoo_id": "09207bdb-f420-4e0b-8dd9-7624c64ae43f",
+        "processing_tool": "citygisoo",
+        "processed_by": "Sabu GIS Cities",
+        "FSA": "T1A",
+        "citygisoo_area": 58.68314141128212,
+        "height": 9.610673904418945,
+        "function": "1000",
+        "year_of_construction": "1971",
+        "construction_type": "5",
+        "address": "12325  CLEMENT-ADER",
+        "address_count": "1",
+        "roll_provincial_id": "mock_prov011",
+        "usage_provincial_id": "mock_prov011",
+        "nrcan_building_area": 330.65,
+        "roll_area": 169.6,
+        "usage_area": 169.6,
+        "main_floor_area": 109.1,
+        "floor_num": 2,
+        "unit_num": 1,
+        "usage_function": "1000",
+        "mean_height": 6.11526483140951
+      }
+    }
+  ]
+}
