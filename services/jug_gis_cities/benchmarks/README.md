@@ -1,30 +1,52 @@
 # `jug_gis_cities` Benchmarks
 
-This folder contains historical timing and execution material for the
-`mtl_fsa_gisoo` component. No new workflow benchmark was run for this transfer.
+This folder contains individual real-data execution logs for four Montréal
+FSAs processed by `mtl_fsa_gisoo`: `H1A`, `H2X`, `H3B`, and `H9X`. They were
+selected from the local `draft/fsa/mtl_fsa_gisoo/` directory as a small set of
+examples, not a statistical sample. No workflow was rerun for this transfer.
 
 ## Contents
 
-- [jug_gis_cities.log](jug_gis_cities.log): unchanged copy of
-  `services/jug_gis_cities/logs/jug_gis_cities.log` from the main Sabu checkout.
-  It contains multiple historical executions, workflow steps, and totals.
-- [summary.csv](summary.csv): selected timing observations from that log,
-  as identified by the transfer note.
+- [H1A.log](fsa/mtl_fsa_gisoo/H1A.log): individual execution history for H1A.
+- [H2X.log](fsa/mtl_fsa_gisoo/H2X.log): individual execution history for H2X.
+- [H3B.log](fsa/mtl_fsa_gisoo/H3B.log): individual execution history for H3B.
+- [H9X.log](fsa/mtl_fsa_gisoo/H9X.log): individual execution history for H9X.
+- [summary.csv](summary.csv): one row per selected FSA for its September 2 run.
+
+Each log is an unchanged copy of the corresponding file under
+`draft/fsa/mtl_fsa_gisoo/`, copied on 2026-09-23. The files retain both the
+August 24 and September 2 execution histories, including workflow steps and
+warnings. The combined batch log and remaining FSA logs are not included.
 
 ## Recorded Timings
 
-| Log date | Selection | Scope | Elapsed |
-| --- | --- | --- | ---: |
-| 2026-09-21 | T1A and T2B, standardized mode, two workers | Batch total; both succeeded | 7.722 s |
-| 2026-09-18 | T1A | Preliminary workflow | 5.223 s |
-| 2026-09-18 | T1A | Contract adapter | 0.230 s |
-| 2026-09-18 | T1A, standardized mode | Isolated execution including cleanup | 7.754 s |
+The following observations are from **2026-09-02**, in `standardize` mode.
+Every row describes a single FSA, with a recorded component completion.
 
-These are historical observations, not benchmarks verified against the
-current uploaded files. The log timestamps do not specify a UTC offset.
-The workflow and adapter durations are portions of the isolated execution;
-they do not include every startup, shutdown, orchestration, or cleanup cost.
-The batch duration uses a different scope and worker count.
+| FSA | Standardized features | Workflow (s) | Contract adapter (s) | Component total (s) |
+| --- | ---: | ---: | ---: | ---: |
+| [H1A](fsa/mtl_fsa_gisoo/H1A.log) | 17,160 | 309.793 | 8.027 | 318.542 |
+| [H2X](fsa/mtl_fsa_gisoo/H2X.log) | 13,558 | 397.540 | 13.826 | 411.374 |
+| [H3B](fsa/mtl_fsa_gisoo/H3B.log) | 2,736 | 277.408 | 1.684 | 279.101 |
+| [H9X](fsa/mtl_fsa_gisoo/H9X.log) | 12,194 | 150.720 | 7.403 | 158.130 |
+
+Feature counts come from each standardized GeoJSON export event and are
+output counts, not counts of input buildings. Durations come directly from
+the corresponding workflow, contract-adapter, and component completion
+events. Workflow and adapter durations are included in the component total;
+do not add all three columns together.
+
+The component completion events report `Cleaned=0`. These totals do not
+represent isolated-worker startup/shutdown or subsequent cleanup, and are
+not batch wall-clock measurements. No all-FSA aggregate is reported. The
+per-FSA summary does not infer a worker count from individual log files.
+Log timestamps do not specify a UTC offset.
+
+These logs describe historical real-data runs. The compact `T1A`/`T2B`
+datasets and outputs elsewhere in this service section are separate examples;
+running them does not reproduce these timings or feature counts. The real
+inputs, input checksums, hardware details, and exact historical environment
+are not bundled with these logs.
 
 The transfer note records package versions `sabu-chassis` 0.1.1, `citygisoo`
 0.3, and `jug_gis_cities` 0.1.0 for its inspected checkout. These do not
@@ -36,7 +58,8 @@ timings. See the [environment notes](../docs/README.md).
 Use the [direct Python guide](../examples/direct_python/README.md) and keep
 each new run's logs and metadata together. Record:
 
-- Input filenames and SHA-256 checksums of the actual six GeoPackages.
+- Input filenames and SHA-256 checksums of the files actually used; identify
+  whether the run uses compact mock inputs or real-data inputs.
 - Sabu revision, local changes, and installed package versions.
 - Python, QGIS, GDAL, Qt, and operating-system versions, plus the QGIS prefix.
 - CPU model, available memory, storage, and worker count.

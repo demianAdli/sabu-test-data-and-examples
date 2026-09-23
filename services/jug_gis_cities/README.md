@@ -15,8 +15,9 @@ standardize the result for downstream building carbon assessment.
 - [examples/](examples/README.md): direct Python execution instructions.
 - [results/](results/README.md): historical T1A/T2B outputs and separately
   exported preliminary GeoJSON files, with provenance and export details.
-- [benchmarks/](benchmarks/README.md): historical execution log, timing
-  summary, and notes for recording new measurements.
+- [benchmarks/](benchmarks/README.md): individual real-data logs and timing
+  summaries for H1A, H2X, H3B, and H9X, plus measurement notes. These runs use
+  different inputs from the compact T1A/T2B examples.
 - [docs/](docs/README.md): configuration, output interpretation, source
   references, and dataset limitations.
 

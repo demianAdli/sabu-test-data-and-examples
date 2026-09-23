@@ -42,9 +42,9 @@ $env:LOG_FILE_NAME = "jug_gis_cities.log"
 output root receives an FSA subdirectory automatically. The active
 `mtl_fsa_gisoo/workflow_config.py` already selects the synthetic filenames.
 
-The repository includes historical outputs and a historical log. To preserve
-them when recording a new run, select a fresh output root and log filename
-before execution, for example:
+The repository includes historical mock outputs and separate real-data FSA
+logs. For a new mock run, select a fresh output root and a descriptive log
+filename before execution, for example:
 
 ```powershell
 $env:JUG_GIS_CITIES_MTL_FSA_OUTPUT_DIR = "$serviceDir\results\new_run"

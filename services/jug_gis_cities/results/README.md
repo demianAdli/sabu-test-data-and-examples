@@ -92,4 +92,5 @@ for fsa in ("T1A", "T2B"):
 
 - [Input descriptions](../datasets/README.md).
 - [Configuration and interpretation](../docs/README.md).
-- [Historical timing records](../benchmarks/README.md).
+- [Individual real-data FSA timing records](../benchmarks/README.md), from
+  separate runs rather than the compact T1A/T2B examples shown here.

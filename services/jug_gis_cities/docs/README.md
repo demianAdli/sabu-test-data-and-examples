@@ -20,8 +20,8 @@ to this service-specific layout.
 | `LOG_DIR_BASE` | Optional log directory, usually `services/jug_gis_cities/benchmarks/` |
 | `LOG_FILE_NAME` | Optional log filename, such as `jug_gis_cities.log` |
 
-The main service README mentions a `pyqgis44` environment. The historical
-log records `C:/QGIS_I~1/OSGeo4W/apps/qgis-ltr` as the QGIS prefix. Neither is
+The main service README mentions a `pyqgis44` environment. The transfer note
+records `C:/QGIS_I~1/OSGeo4W/apps/qgis-ltr` as a historical QGIS prefix. Neither is
 an exact reproducible version lock or a portable installation path. Use a
 matching standalone PyQGIS environment and record its actual versions.
 

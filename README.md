@@ -52,7 +52,7 @@ sabu-test-data-and-examples/
 |       |-- datasets/
 |       |   `-- mock_data/      # Placeholder for six prepared input GeoPackages
 |       |-- results/     # Historical T1A/T2B outputs and preliminary exports
-|       |-- benchmarks/  # Historical logs, timings, and measurement notes
+|       |-- benchmarks/  # Selected real-data FSA logs and individual timings
 |       `-- docs/        # Configuration, interpretation, and dataset limitation
 |
 |-- shared/
