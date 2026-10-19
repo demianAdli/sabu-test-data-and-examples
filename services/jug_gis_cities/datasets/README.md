@@ -3,10 +3,8 @@
 Place the six prepared input GeoPackages in [mock_data/](mock_data/). This
 folder is initially a placeholder; no input data have been generated or copied.
 
-The prepared files are available in the main Sabu checkout at
-`services/jug_gis_cities/draft_cities/mock_data/`. In the transfer environment,
-that directory is
-`C:\Users\a_adli\docker_projects\sabu\services\jug_gis_cities\draft_cities\mock_data`.
+The prepared files are available in the
+[mock-data directory on GitHub](https://github.com/demianAdli/sabu-test-data-and-examples/tree/main/services/jug_gis_cities/datasets/mock_data).
 Copy those files manually, preserving filenames, schemas, and CRS metadata.
 
 ## Input Inventory
