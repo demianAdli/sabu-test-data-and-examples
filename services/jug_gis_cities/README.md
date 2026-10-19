@@ -10,7 +10,7 @@ standardize the result for downstream building carbon assessment.
 
 ## Where to Look
 
-- [datasets/](datasets/README.md): input descriptions and the [`mock_data/`](https://github.com/demianAdli/sabu-test-data-and-examples/tree/main/services/jug_gis_cities/datasets/mock_data)
+- [datasets/](datasets/README.md): input descriptions and the `mock_data/`
   folder where the six prepared GeoPackages should be added manually.
 - [examples/](examples/README.md): direct Python execution instructions.
 - [results/](results/README.md): historical T1A/T2B outputs and separately

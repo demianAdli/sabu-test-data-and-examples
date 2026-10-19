@@ -3,8 +3,10 @@
 Place the six prepared input GeoPackages in [mock_data/](mock_data/). This
 folder is initially a placeholder; no input data have been generated or copied.
 
-The prepared files are available in the
-[mock-data directory on GitHub](https://github.com/demianAdli/sabu-test-data-and-examples/tree/main/services/jug_gis_cities/datasets/mock_data).
+The prepared files are available in the main Sabu checkout at
+`services/jug_gis_cities/draft_cities/mock_data/`. In the transfer environment,
+that directory is
+`C:\Users\a_adli\docker_projects\sabu\services\jug_gis_cities\draft_cities\mock_data`.
 Copy those files manually, preserving filenames, schemas, and CRS metadata.
 
 ## Input Inventory
@@ -12,14 +14,14 @@ Copy those files manually, preserving filenames, schemas, and CRS metadata.
 Each file contains one spatial layer named after its filename without `.gpkg`.
 Counts and CRS values below come from the supplied transfer note.
 
-| File | Role | Geometry | Features | EPSG |
-| --- | --- | --- | ---: | ---: |
-| `synthetic_assessment_role.gpkg` | Property-assessment records | Point | 18 | 4269 |
-| `synthetic_auto_building.gpkg` | Building footprints and heights | MultiPolygon | 4 | 4617 |
-| `synthetic_auto_building_preserved.gpkg` | Preserved footprints for geometry restoration | MultiPolygon | 4 | 4617 |
-| `synthetic_predominant_uses.gpkg` | Predominant-use records | MultiPolygon | 18 | 32188 |
-| `synthetic_predominant_uses_dup.gpkg` | Separate usage input for deduplication/intersection | MultiPolygon | 18 | 32188 |
-| `synthetic_fsa.gpkg` | District boundaries | MultiPolygon | 2 | 4269 |
+| File                                     | Role                                                | Geometry     | Features |  EPSG |
+| ---------------------------------------- | --------------------------------------------------- | ------------ | -------: | ----: |
+| `synthetic_assessment_role.gpkg`         | Property-assessment records                         | Point        |       18 |  4269 |
+| `synthetic_auto_building.gpkg`           | Building footprints and heights                     | MultiPolygon |        4 |  4617 |
+| `synthetic_auto_building_preserved.gpkg` | Preserved footprints for geometry restoration       | MultiPolygon |        4 |  4617 |
+| `synthetic_predominant_uses.gpkg`        | Predominant-use records                             | MultiPolygon |       18 | 32188 |
+| `synthetic_predominant_uses_dup.gpkg`    | Separate usage input for deduplication/intersection | MultiPolygon |       18 | 32188 |
+| `synthetic_fsa.gpkg`                     | District boundaries                                 | MultiPolygon |        2 |  4269 |
 
 ## Schema and District Selection
 
