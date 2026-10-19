@@ -1,13 +1,14 @@
 # `jug_gis_cities` Datasets
 
-Place the six prepared input GeoPackages in [mock_data/](mock_data/). This
-folder is initially a placeholder; no input data have been generated or copied.
+The [mock_data/](mock_data/) folder contains six synthetic input GeoPackages
+for running the `mtl_fsa_gisoo` workflow with the example districts `T1A` and
+`T2B`. The inventory below describes each file and its role in the workflow.
 
-The prepared files are available in the main Sabu checkout at
-`services/jug_gis_cities/draft_cities/mock_data/`. In the transfer environment,
-that directory is
-`C:\Users\a_adli\docker_projects\sabu\services\jug_gis_cities\draft_cities\mock_data`.
-Copy those files manually, preserving filenames, schemas, and CRS metadata.
+To use these inputs, update the `input_paths` entries in the main Sabu service's
+`services/jug_gis_cities/src/jug_gis_cities/mtl_fsa_gisoo/workflow_config.py`
+to point to the corresponding files in your local `datasets/mock_data/`
+directory. Match each configured input to its role in the inventory below,
+preserving the files' names, layer names, schemas, and CRS metadata.
 
 ## Input Inventory
 
@@ -39,9 +40,12 @@ Significant fields include:
 Keep both the preserved-building and separate usage inputs, even when their
 feature counts match another input. They serve distinct workflow roles.
 
-Set `JUG_GIS_CITIES_MTL_FSA_DATA_DIR` to this `datasets/` directory, the
-**parent of `mock_data/`**. The workflow appends `mock_data` itself. See the
-[direct Python guide](../examples/direct_python/README.md) for complete paths.
+If you use `JUG_GIS_CITIES_MTL_FSA_DATA_DIR` to set the data root, ensure that
+the paths constructed in `workflow_config.py` resolve to these mock files.
+Setting the environment variable alone does not select the synthetic inputs;
+the `input_paths` entries must also reference them. See the
+[direct Python guide](../examples/direct_python/README.md) for PyQGIS setup
+and execution commands.
 
 ## Dataset Limitation
 
